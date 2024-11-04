@@ -21,13 +21,6 @@ public class CruddemoApplication {
 		};
 	}
 
-	@Bean
-	public CommandLineRunner cmd(String[] agrs) {
-		return runner -> {
-			System.out.println("Hello World");
-		};
-	}
-
 	private void readStudent(StudentDAO student) {
 		System.out.println("Creating student");
 		Student tempStudent = new Student("John", "Doe", "john@example.com");
