@@ -1,4 +1,4 @@
-package com.springboot.__spring_boot_rest_crud.rest;
+package com.springboot.__spring_boot_rest_crud.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
